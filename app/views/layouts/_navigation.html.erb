@@ -1,0 +1,20 @@
+<!-- Searchbox --->
+
+    <div id="kb-lookup">
+    <div class="form-group row no-padding text-center col-xlg-12",placeholder: "Search for answers", autofocus: true >
+      <div class="col-xlg-12,placeholder: "Search for answers", >
+        <%= search_form_for @q do |f| %>
+      </div>
+       <%= f.search_field :description_cont, class: "form-control",placeholder: true %> 
+      <div class="col-xlg-12">
+        <%= button_tag(type: :submit, class: "btn btn-lg btn-success") do %>
+          <i class="fa fa-search"></i> Look up a KB
+        <% end %>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+  <% end %>
+  
+ 

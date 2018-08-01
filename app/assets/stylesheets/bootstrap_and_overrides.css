@@ -1,0 +1,11 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Static version of css will use Glyphicons sprites by default
+  =require twitter-bootstrap-static/sprites
+*/
+
+.jumbotron{
+  background-image: asset("//ditkb/app/images/IDP Image.jpg") ;
+    
+}
